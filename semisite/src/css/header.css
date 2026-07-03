@@ -21,6 +21,10 @@
     opacity: 1;
 }
 
+.logogroup.home .txtlogo {
+  opacity: 1;
+}
+
 .txtlogo{
     opacity: 0%;
     height: 3.5vh;

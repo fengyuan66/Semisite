@@ -24,7 +24,7 @@ function Header(){
     return(
         <div className="header">
             
-            <div className="logogroup">
+            <div className={`logogroup ${location.pathname === '/' ? 'home' : ''}`}>
                 <img className="txtlogo" src={txtlogo} alt="appearing-on-hover SEMI text logo" height="40" />
                 <Link to="/" className="logolink">
                     <img src={logo} alt="SEMI logo" height="40" />
