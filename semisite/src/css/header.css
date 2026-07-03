@@ -1,0 +1,43 @@
+
+
+.header {
+  display: flex;
+  gap: 50px;
+  align-items:center;
+  padding: 1vh;
+  padding-left: 25vw;
+  
+}
+
+
+.header nav {
+  display: flex;
+  gap: 100px;
+  padding: 0vh 2vw;
+  align-items:center;
+
+  position: relative;
+}
+
+.header nav a{
+    color: black;
+    text-decoration: none;
+    font-weight:500;
+}
+.header nav a:hover {
+    color: grey;
+}
+.header nav a.active {
+    color: black;
+}
+
+
+.indicator {
+    transition: left 0.3s ease, width 0.3s ease;
+    position: absolute;
+    bottom: -8px;
+    height: 5px;
+    background: url('../assets/navunderline.svg') no-repeat;
+    background-size:cover;
+    background-position: center;
+}
