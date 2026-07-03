@@ -4,9 +4,31 @@
   display: flex;
   gap: 50px;
   align-items:center;
-  padding: 1vh;
+  padding: 2vh;
   padding-left: 25vw;
   
+}
+
+.logogroup{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  
+  
+}
+
+.logogroup:hover .txtlogo{
+    opacity: 1;
+}
+
+.txtlogo{
+    opacity: 0%;
+    height: 3.5vh;
+    transition: opacity 0.3s ease;
+}
+
+.logolink img{
+    display: block;
 }
 
 
@@ -38,6 +60,8 @@
     bottom: -8px;
     height: 5px;
     background: url('../assets/navunderline.svg') no-repeat;
-    background-size:cover;
+    background-size: auto 100%;
+    background-repeat: repeat-x;
     background-position: center;
 }
+
