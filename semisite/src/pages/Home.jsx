@@ -11,7 +11,7 @@ function Home(){
                 <div className="card">
                     <video autoPlay loop muted playsInline className="herovideo" src={Studyingvideo} />
                     <h1 className="herotext">Automating Life</h1>
-                    <p className="herodesc">Developing solutions that deliver efficiency in creation, academics, and beyond</p>
+                    <p className="herodescspecial">Developing solutions that deliver efficiency in creation, academics, and beyond</p>
                 </div> 
                 <div className="card">
                     <video autoPlay loop muted playsInline className="herovideo" src={RnDvideo} />

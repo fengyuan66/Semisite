@@ -37,7 +37,18 @@
   z-index: 1;
 }
 
+.herodescspecial {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -2px -2px 16px black;
+  color: white;
+  z-index: 1;
+}
+
 .whatwedo{
     padding-top:5vh;
     display:flex;
 }
+
