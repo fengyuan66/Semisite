@@ -1,7 +1,7 @@
 function Employees(){
     return(
         <div className="employees">
-            <h1>Meet our employees!</h1>
+            <h1>Meet our employee(s)!</h1>
         </div>
     )
 }
