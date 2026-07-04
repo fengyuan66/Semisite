@@ -2,13 +2,15 @@
 import '../css/projectbox.css'
 import voyagodemo from '../assets/projects/voyago/voyagodemo.svg'
 import github from '../assets/github.svg'
-
-
+import claudeskill from '../assets/projects/claudestudyingpipeline/ClaudeButton.svg'
+import spacegoosedemo from '../assets/projects/spacegoose/SpacegooseButton.svg'
 
 function Projectbox({ banner, icon, status, statusAlt, title, pitch, description, links}){
     const linkIcons = {
         github: github,
         voyagodemo: voyagodemo,
+        claude: claudeskill,
+        spacegoosedemo: spacegoosedemo
     }
     
     

@@ -32,7 +32,7 @@ function Header(){
             </div>
             <nav ref = {navRef}>
                 <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''}>
-                About
+                Harry
                 </NavLink>
                 <NavLink to="/projects" className={({ isActive }) => isActive ? 'active' : ''}>
                 Projects

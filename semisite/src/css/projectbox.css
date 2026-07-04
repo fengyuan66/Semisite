@@ -61,8 +61,9 @@
 }
 
 .status{
-    margin-top: auto; 
-    padding-left: 17vw;
+    position:absolute;
+     
+    right:0;
     
 }
 
@@ -74,9 +75,11 @@
 }
 
 .headbox{
-    padding-left: 3vw;
+    padding-left: 2.5vw;
     display: flex;
     align-items: center;
+    position:relative;
+    padding-right: 6vw;
 }
 
 .buttonrow {
