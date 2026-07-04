@@ -1,6 +1,7 @@
 import '../css/contact.css'
-
-
+import githubimg from '../assets/github.png'
+import linkedinimg from '../assets/linkedin.webp'
+import semilogo from '../assets/SEMI_logo.svg'
 function Contact(){
     return(
         <div className="contact">
@@ -8,7 +9,23 @@ function Contact(){
             <div className="maincontent">
 
                 <div className="infobox">
-                    <h1>TEST</h1>
+                    <a href="https://github.com/fengyuan66" className="contactinfo">
+                        <img src={githubimg} />
+                        <h1>Github</h1>
+                    </a>
+                    <a href="https://www.linkedin.com/in/harry-liu-b768a0382/" className="contactinfo">
+                        <img src={linkedinimg} />
+                        <h1>Linkedin</h1>
+                    </a>
+                    <a href="mailto:fengyuan6666@gmail.com" className="contactinfo">
+                        <img src={semilogo} />
+                        <div className="emailbundle">
+                            <h1>Email</h1>
+                            <p>fengyuan6666@gmail.com</p>
+                        </div>
+                        
+                    </a>
+                    
                 </div>
 
                 <div className="formbox">
@@ -23,7 +40,7 @@ function Contact(){
                         <label htmlFor="message">Message</label>
                         <textarea id="message" name="message" rows="6" required />
 
-                        <button type="submit">Send</button>
+                        <button type="submit">✈</button>
                     </form>
                 </div>
 
