@@ -1,0 +1,36 @@
+.newsletterlinkbox{
+    width: 80vw;
+    height: 10vh;
+    background-color:rgb(184, 223, 255);
+    box-shadow: 0 2px 16px rgba(15, 76, 129, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centers content vertically */
+    align-items: center;     /* centers content horizontally */
+
+    border-radius: 1vw;
+    text-align: center;
+    border: 1vw;
+    
+}
+
+.newsletterlink{
+    text-decoration:none;
+    color:black;
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+.newsletterslist {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.newslettersbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 1vw;
+}
