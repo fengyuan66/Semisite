@@ -1,0 +1,90 @@
+.about {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 5vw 2vw;
+}
+
+.about_maincontent {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw, 5vw;
+}
+
+.overview h2, .interests h2{
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+}
+
+.overview ul, .interests ul {
+    list-style: none;
+    padding: 0;
+    margin: 0vw 6vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+
+.overview li, .interests li{
+    padding-left: 4vw;
+    position: relative;
+    line-height: 1.5;
+    
+}
+
+.overview li::before, .interests li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: skyblue;
+}
+
+.msg1{
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    align-items:center;
+    box-shadow: 0 0px 30px rgba(15, 76, 129, 0.12);
+    border-radius: 2vw;
+    padding: 2vw 2vw;
+    align-self: center;
+    text-align: center;
+    max-width: 100ch;
+}
+
+.msg1 p{
+    
+    max-width: 109ch;
+    line-height: 1.7;
+    
+    
+}
+
+.overview ul,
+.overview li,
+.interests ul,
+.interests li {
+    text-align: left;
+}
+
+.abttop{
+    padding-top: 4vw;
+    justify-content: center; 
+    display: flex;
+    align-items: center;
+}
+
+.abttop h1{
+
+    margin-left: 2vw;
+}
+
+.abttop img{
+
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%
+    
+}
