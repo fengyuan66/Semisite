@@ -1,4 +1,4 @@
-# SEMIsite - Harry Liu's personal website - README
+# SEMISite README
 
 # What is this?
 This is my personal website. I will continue to update it and probably expand its features, but that heavily depends on how much I use it. Other than that, it serves like a portfolio, a hub that I can attach to resumes and applications for others to interact and learn about my projects.
