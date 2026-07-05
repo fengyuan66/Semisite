@@ -65,6 +65,27 @@ I can put it on any type of resume, applications, online forms, or showing to pe
 
 I'd imagine though that by the time I graduate uni, this whole SEMI thing will become an actual company and I will have to find another cute graphic to represent me on the website.
 
+# What I made it with
+
+This is made with React Javascript! For both of my HCTG projects I experimented with React and truth be told as I wrote this site I am approaching the point where I can look at a design I sketched and fill in the jsx and css files without any assistance
+
+Anyways, the videos I got for pixabay, most of the graphics I designed on Canva, and the email contact form is powered by a 3rd party service called Formspree
+
+# How it can be deployed
+
+I deployed it with Vercel. A very smooth deployment pipeline!
+
+# How can I contribute to it?
+
+It's best that you don't contribute to it and leave the work to me. If I find that you somehow contributed to my site I would be concerned... Although please do give feedback, especially considering that this is in a professional/LARP/joke limbo.
+
+# Project demo
+
+You can check out the site for yourself here: https://semisite.vercel.app/
+
+Alternatively, here's a screenshot:
+![Semisite homescreen where I larp the heck out of SEMI by designing a very professional and nice looking OpenAI ahh section](image.png)
+
 # AI Declaration
 
 I attached Claude Code to my repo because web dev involves context across many fields and it was hard to communicate with Chatgpt, which likes to assume stuff if you don't tell it what it needs.
