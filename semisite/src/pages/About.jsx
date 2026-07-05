@@ -1,5 +1,6 @@
 import '../css/about.css'
 import harryimg from '../assets/harry.png'
+import Footer from '../components/Footer.jsx'
 function About(){
     return (
         <div>
@@ -51,9 +52,12 @@ function About(){
                     <div className="msg1">
                         <p>SEMI was started as a <a href="https://trending.knowyourmeme.com/editorials/guides/what-does-larp-or-larping-mean-the-role-playing-terms-turned-slang-explained">LARP</a> when I was in grade 5 and jumped on the train of making projects with my friends. <br></br><b>Today, it is a symbol representing not myself, but my work, activity, and presence in the tech fields.</b></p>
                     </div>
+                    
 
                 </div>
+                
             </div>
+            <Footer />
             
         </div>
         

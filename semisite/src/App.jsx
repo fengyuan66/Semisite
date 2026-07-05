@@ -12,6 +12,7 @@ import Employees from './pages/Employees.jsx'
 import Projects from './pages/Projects.jsx'
 import Newsletter from './pages/Newsletter.jsx'
 import Header from './components/Header.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,8 @@ function App() {
       <Route path="/projects" element={<Projects />} />
       <Route path="/newsletter" element={<Newsletter />} />
     </Routes>
+    
+
     </>
     
   )
